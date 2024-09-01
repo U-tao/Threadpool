@@ -1,7 +1,7 @@
 # include <iostream>
 # include <thread>
 # include <future>
-# include "threadpooh_Last.h"
+# include "threadpool_Last.h"
 
 
 /*
@@ -24,6 +24,10 @@ int sum2(int a, int b, int c)
     std::this_thread::sleep_for(std::chrono::seconds(3));
     return a + b + c;
 }
+void sum3(int a, int b)
+{   
+    std::cout << "a = " << a << "b = " << b << std::endl;
+}
 
 int main()
 {
@@ -43,15 +47,12 @@ int main()
         std::this_thread::sleep_for(std::chrono::seconds(3));
         return res;
     }, 4);
-    
-    std::future<int> res4 = pool.submitTask(sum2, 1, 2, 4);
-    std::future<int> res5 = pool.submitTask(sum2, 1, 2, 4);
 
+    pool.submitTask(sum3, 1, 2);
     std::cout << "res1: " << res1.get() << std::endl;
     std::cout << "res2: " << res2.get() << std::endl;
     std::cout << "res3: " << res3.get() << std::endl;
-    std::cout << "res4: " << res4.get() << std::endl;
-    std::cout << "res5: " << res5.get() << std::endl;
+
 
     return 0;
 }
