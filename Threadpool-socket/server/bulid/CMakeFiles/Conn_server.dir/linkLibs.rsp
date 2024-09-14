@@ -1,0 +1,1 @@
+  -L"D:/Xu/Desktop/Le/git/Project/Threadpool/Threadpool-socket/server/bulid/../lib"  -lwsock32 -lshared_server -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

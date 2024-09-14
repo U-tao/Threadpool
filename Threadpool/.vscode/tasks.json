@@ -7,10 +7,10 @@
 			"command": "D:/Xu/softwares/mingw64/bin/g++.exe",
 			"args": [
 				"-fdiagnostics-color=always",
-				"-g",
-				"${workspaceFolder}\\*.cpp",
-				"-o",
-				"${workspaceFolder}\\${workspaceFolderBasename}.exe"
+				"-g", "${workspaceFolder}\\*.cpp",
+				"-g", "${workspaceFolder}\\src\\*.cpp",
+				"-I", "${workspaceFolder}\\include",
+				"-o", "${workspaceFolder}\\${workspaceFolderBasename}.exe"
 			],
 			"options": {
 				"cwd": "D:/Xu/softwares/mingw64/bin"

@@ -1,0 +1,3 @@
+D:/Xu/Desktop/Le/git/Project/Threadpool/Threadpool-socket/client/bulid/CMakeFiles/Conn_client.dir
+D:/Xu/Desktop/Le/git/Project/Threadpool/Threadpool-socket/client/bulid/CMakeFiles/edit_cache.dir
+D:/Xu/Desktop/Le/git/Project/Threadpool/Threadpool-socket/client/bulid/CMakeFiles/rebuild_cache.dir
