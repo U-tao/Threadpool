@@ -1,8 +1,8 @@
 # C++ VScode项目: 线程池项目
     1, Threadpool: 文件夹中是从零开始,使用c11之前的c++提供的功能一步步进行编写
-    2, Threadpool_Last: 文件夹中是通过c11之后,包含c14,和c17的提供的新特性,进行编写
-    3，Socket: Socket网络编程文件。Windows下，通过线性池实现多人通信的Socket项目。
-    文件 3 为发布程序，通过动态库和cmake生成程序。
+    2, Threadpool_Last: 文件夹中是通过c11之后,包含c14的提供的新特性,进行编写
+    3，Threadpool_Socket: Socket网络编程文件。Windows下，通过线性池实现多人通信的Socket项目。
+        *文件 3 为发布程序，通过动态库和cmake生成程序*
 
 ## 项目介绍:
 
